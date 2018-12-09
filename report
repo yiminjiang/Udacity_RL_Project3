@@ -33,5 +33,6 @@ Critic:
 Plot of Rewards: results.png
 Environment was resolved in 16505 episodes.
 Average scores of last 100 episodes: 0.505
+Saved model files: check_pt_actor.pth and check_pt_critic.pth.
     
 Idea of future work: (1) Using prioritized replay buffer, (2) Working on Soccer, and (3) use other learning algorithms.
