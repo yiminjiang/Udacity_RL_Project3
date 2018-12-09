@@ -27,7 +27,7 @@ Clone or download and unzip the DRLND_P3_collab-compet folder.
 
 Download by clicking the link below and unzip the environment file under DRLND_P3_collab-compet folder
 
-https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
+https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
 
 Download by clicking the link below and unzip the ml-agents file under DRLND_P3_collab-compet folder
 
