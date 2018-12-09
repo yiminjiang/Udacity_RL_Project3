@@ -5,7 +5,7 @@ TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 1.2e-4         # learning rate of the actor 
 LR_CRITIC = 3.2e-4        # learning rate of the critic
 WEIGHT_DECAY = 0.0001        # L2 weight decay
-UPDATE_EVERY = 10
+UPDATE_EVERY = 10         # learning for every 10 steps
 
 Learning Algorithm: Multi-Agent Deep Deterministic Policy Gradient (MADDPG).
 
