@@ -15,7 +15,7 @@ Before training the model, we randomly generated training data and put them into
 After that, we created only one DDPG agent and put the same agent into agent.agents list two times. The rest of the flow is
 based on MADDPG algorithm. The heuristics of using only one agent leads to good results. We also tried two-agent approach by
 creating two differnt DDPG agents and put them into agent.agents list. However, the two-agent approach is not able to achieve 
-good results. Meanwhile, the results of two-agent approach is very unstable.
+good results. Meanwhile, the results of two-agent approach are very unstable.
 
 Model Architecture: 
 Actor:
