@@ -63,5 +63,6 @@ Open Tennis.ipynb in Jupyter and press Shift+Enter to run the first cell to impo
 
 The environment is considered as solved when the average score of last 100 eposides is greater than 0.5
 
-Saved model files: check_pt_actor.pth and check_pt_critic.pth
-Results are saved in the file "result.png"
+Saved model files: check_pt_actor.pth and check_pt_critic.pth.
+
+Results are saved in the file "results.png".
