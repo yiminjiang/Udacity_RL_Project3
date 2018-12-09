@@ -9,10 +9,10 @@ UPDATE_EVERY = 10
 
 Learning Algorithm: Multi-Agent Deep Deterministic Policy Gradient (MADDPG).
 
-Before training the model, we randomly generate training data and put them into replay buffer. The corresponding function is 
+Before training the model, we randomly generated training data and put them into replay buffer. The corresponding function is 
 "fill_memory".
 
-After that, we create only one DDPG agent and put the same agent into agent.agents list two times. The rest of the flow is
+After that, we created only one DDPG agent and put the same agent into agent.agents list two times. The rest of the flow is
 based on MADDPG algorithm. The heuristics leads to good results. We tried to create two differnt DDPG agents. 
 However, two-agent approach is not able to get good results, and results of two-agent approach is very unstable.
 
@@ -35,4 +35,4 @@ Environment was resolved in 16505 episodes.
 Average scores of last 100 episodes: 0.505
 Saved model files: check_pt_actor.pth and check_pt_critic.pth.
     
-Idea of future work: (1) Using prioritized replay buffer, (2) Working on Soccer project, and (3) use other learning algorithms.
+Idea of future work: (1) using prioritized replay buffer, (2) working on Soccer project, and (3) use other learning algorithms.
