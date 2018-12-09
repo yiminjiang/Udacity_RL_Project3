@@ -59,7 +59,7 @@ Open Tennis.ipynb in Jupyter and press Shift+Enter to run the first cell to impo
 
 (1) Fill the replay buffer by running the cell which contains "fill_memory function".
 
-(2) Train an agent by running the cells which contain the "maddpg_train" function.
+(2) Train an agent by running the cells which contains the "maddpg_train" function.
 
 The environment is considered as solved when the average score of last 100 eposides is greater than 0.5
 
