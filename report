@@ -13,8 +13,8 @@ Before training the model, we randomly generate training data and put them into 
 "fill_memory".
 
 After that, we create only one DDPG agent and put the same agent into agent.agents list two times. The rest of the flow is
-based on MADDPG algorithm. The heuristics leads to good results. We tried to create two differnt DDPG agent. 
-However, two-agent approach is not able to get good results.
+based on MADDPG algorithm. The heuristics leads to good results. We tried to create two differnt DDPG agents. 
+However, two-agent approach is not able to get good results, and results of two-agent approach is very unstable.
 
 Model Architecture: 
 Actor:
