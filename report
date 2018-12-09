@@ -1,0 +1,37 @@
+BUFFER_SIZE = int(1e5)  # replay buffer size
+BATCH_SIZE = 128        # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR_ACTOR = 1.2e-4         # learning rate of the actor 
+LR_CRITIC = 3.2e-4        # learning rate of the critic
+WEIGHT_DECAY = 0.0001        # L2 weight decay
+UPDATE_EVERY = 10
+
+Learning Algorithm: Multi-Agent Deep Deterministic Policy Gradient (MADDPG).
+
+Before training the model, we randomly generate training data and put them into replay buffer. The corresponding function is 
+"fill_memory".
+
+After that, we create only one DDPG agent and put the same agent into agent.agents list two times. The rest of the flow is
+based on MADDPG algorithm. The heuristics leads to good results. We tried to create two differnt DDPG agent. 
+However, two-agent approach is not able to get good results.
+
+Model Architecture: 
+Actor:
+3 layers of Neural network:
+                     first layer: 24 X 400
+                     second layer: 400 X 300
+                     third layer: 300 X 2
+ 
+Critic:
+3 layers of Neural network:
+                     first layer: 26 X 400
+                     second layer: 400 X 300
+                     third layer: 300 X 1
+                     
+                     
+Plot of Rewards: results.png
+Environment was resolved in 16505 episodes.
+Average scores of last 100 episodes: 0.505
+    
+Idea of future work: (1) Using prioritized replay buffer, (2) Working on Soccer, and (3) use other learning algorithms.
